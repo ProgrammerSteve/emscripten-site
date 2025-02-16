@@ -1,0 +1,26 @@
+# Ignore the entire build directory except for the generated WebAssembly files
+/build/*
+!/build/sdl_wasm_project.html
+!/build/sdl_wasm_project.js
+!/build/sdl_wasm_project.wasm
+
+# Ignore CMake build files
+CMakeCache.txt
+CMakeFiles/
+cmake_install.cmake
+Makefile
+
+# Ignore temporary files
+*.o
+*.d
+*.a
+*.so
+*.out
+
+# Ignore IDE-specific files
+.vscode/
+.idea/
+
+# Ignore system-specific files
+.DS_Store
+Thumbs.db
