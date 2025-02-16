@@ -1,0 +1,22 @@
+{
+    "configurations": [
+      {
+        "name": "WSL-Emscripten",
+        "includePath": [
+          "${workspaceFolder}/**",
+          "/home/steven/emsdk_setup/emsdk/upstream/emscripten/system/include",
+          "/home/steven/emsdk_setup/emsdk/upstream/emscripten/cache/sysroot/include",
+          "/usr/include/SDL2"
+        ],
+        "defines": [
+          "__EMSCRIPTEN__"
+        ],
+        "compilerPath": "/home/steven/emsdk_setup/emsdk/upstream/emscripten/em++",
+        "cStandard": "c17",
+        "cppStandard": "c++17",
+        "intelliSenseMode": "linux-gcc-x64"
+      }
+    ],
+    "version": 4
+  }
+  

@@ -1,0 +1,1 @@
+/home/steven/emsdk_setup/emsdk/upstream/emscripten/em++ -sUSE_SDL=2 -sWASM=1 -sFULL_ES3=1 -sUSE_WEBGL2=1 -sALLOW_MEMORY_GROWTH=1 -sNO_EXIT_RUNTIME=1 "-sEXPORTED_RUNTIME_METHODS=['ccall','cwrap']" -sFORCE_FILESYSTEM=1 -sEXPORT_ALL=1 -fexceptions -sNO_DISABLE_EXCEPTION_CATCHING @CMakeFiles/sdl_wasm_project.dir/objects1.rsp -o sdl_wasm_project.html 
